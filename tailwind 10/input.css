@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.after{
+    background-color: blue 
+}
+@tailwind utilities;
+@layer components{
+
+    .btn{
+        @apply bg-purple-600 text-white px-3 py-2 rounded-md;
+    }
+}
